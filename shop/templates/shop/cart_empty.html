@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container text-center mt-5">
+    <h2>Oops! Your cart is empty 🛍️</h2>
+    <p class="lead">Looks like you haven't added anything to your cart yet.</p>
+    <a href="{% url 'product_list' %}" class="btn btn-primary mt-3">Go Shopping</a>
+</div>
+{% endblock %}
